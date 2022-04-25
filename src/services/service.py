@@ -2,8 +2,10 @@
 from pynse import *
 from datetime import datetime
 import json
-
+import logging
 #config logging
+
+logging.basicConfig(level=logging.DEBUG)
 # nse
 nse = Nse()
 
